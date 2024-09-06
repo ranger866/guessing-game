@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<br/>
+<div align="center">
+  <h1>Welcome To The Game</h1>
+</div>
+<br/>
+<div align="center">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Make a Guess</h5>
+      <p class="card-text">Guess a number in range of 1 - 10</p>
+      <form method="post">
+        <input type="text" class="form-control" name="tebak" id="tebak" min="1" max="10" inputmode="numeric" required ><br/>
+        <div align="center">
+          <button class="btn btn-primary" type="submit">Guess</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

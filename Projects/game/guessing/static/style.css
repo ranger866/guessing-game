@@ -1,0 +1,12 @@
+.skor {
+    display: flex;
+    justify-content: center;
+    width: 2rem; 
+    height: 2rem; 
+    background-color:white; 
+    border-radius: 50%; 
+    border: black solid 1px; 
+    position: absolute; 
+    left: 9rem; 
+    top: 0.9rem;
+}
